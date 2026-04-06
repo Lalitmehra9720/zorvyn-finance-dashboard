@@ -25,6 +25,9 @@ app.use(cors({
 app.use(express.json()); // Allows us to send JSON in body
 
 // Routes
+app.get('/', (req, res) => {
+  res.send('Zorvyn Finance API is running...');
+});
 app.use('/api/transactions', transactionRoutes);
 
 // Error Handler Middleware
