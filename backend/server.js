@@ -17,7 +17,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://zorvyn-finance-dashboard.vercel.app'
+    'https://zorvyn-finance-dashboard-gold.vercel.app'
   ],
   credentials: true
 }));
